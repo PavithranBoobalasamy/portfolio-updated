@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+}
+
+.container {
+    max-width: 1200px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+h1 {
+    color: #008080;
+}
+
+h2 {
+    color: #333;
+}
+
+hr {
+    border: 1px solid #ccc;
+    width: 100%; /* Make the horizontal line span the full width */
+    margin: 20px 0; /* Add some spacing above and below the horizontal line */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0; /* Add spacing above and below the images */
+}
+
+a {
+    color: #008080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005757;
+}
+
+/* Navigation links */
+h5 a {
+    margin-right: 20px;
+}
+
+/* Footer */
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    img {
+        margin-top: 10px;
+    }
+}
